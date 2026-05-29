@@ -31,7 +31,7 @@ const KEYS = [
 type KeyboardProps = {
   disabled: boolean;
   activeLetters: string[];
-  reaveledLetters: string[];
+  revealedLetters: string[];
   inactiveLetters: string[];
   addGuessedLetter: (letter: string) => void;
 };
